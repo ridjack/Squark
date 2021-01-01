@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "squark",
+  "version": "${version}",
+
+  "name": "Squark",
+  "description": "Very un-shiny things.",
+  "authors": [
+    "coranthes"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ridjack/Slepton",
+    "sources": "https://github.com/ridjack/Slepton"
+  },
+
+  "license": "MIT",
+  "icon": "assets/coranthemum/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ridjack.squark.Squark"
+    ],
+    "client": [
+      "ridjack.squark.SquarkClient"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "charm": ">=2.2.0"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
