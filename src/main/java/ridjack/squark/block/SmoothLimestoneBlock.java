@@ -8,9 +8,9 @@ import net.minecraft.sound.BlockSoundGroup;
 import svenhjol.charm.base.CharmModule;
 import svenhjol.charm.base.block.CharmBlock;
 
-public class LimestoneBlock extends CharmBlock {
-    public LimestoneBlock(CharmModule module) {
-        super(module, "limestone", FabricBlockSettings
+public class SmoothLimestoneBlock extends CharmBlock {
+    public SmoothLimestoneBlock(CharmModule module) {
+        super(module, "smooth_limestone", FabricBlockSettings
                 .of(Material.STONE)
                 .sounds(BlockSoundGroup.STONE)
                 .breakByTool(FabricToolTags.PICKAXES)

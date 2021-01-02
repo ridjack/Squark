@@ -1,3 +1,6 @@
 {
-  "block.squark.slate": "Slate"
+  "block.squark.slate": "Slate",
+  "block.squark.smooth_slate": "Smooth Slate",
+  "block.squark.limestone": "Limestone",
+  "block.squark.smooth_limestone": "Smooth Limestone"
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "squark:block/slate" }
+    "": { "model": "squark:block/smooth_slate" }
   }
 }

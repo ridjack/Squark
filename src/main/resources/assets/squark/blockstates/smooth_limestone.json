@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "squark:block/limestone" }
+    "": { "model": "squark:block/smooth_limestone" }
   }
 }
