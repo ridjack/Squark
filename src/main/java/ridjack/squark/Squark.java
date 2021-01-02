@@ -1,5 +1,6 @@
 package ridjack.squark;
 
+import ridjack.squark.module.Limestone;
 import ridjack.squark.module.Slate;
 import net.fabricmc.api.ModInitializer;
 import svenhjol.charm.Charm;
@@ -16,7 +17,8 @@ public class Squark implements ModInitializer {
         Charm.runFirst();
 
         new CharmLoader(Squark.MOD_ID, Arrays.asList(
-            Slate.class
+            Slate.class,
+            Limestone.class
         ));
     }
 }

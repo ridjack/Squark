@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "###"
+    "##",
+    "##"
   ],
   "key": {
     "#": {
-      "item": "minecraft:gold_ingot"
+      "item": "squark:slate"
     }
   },
   "result": {
-    "item": "charm:gold_bars",
-    "count": 16
+    "item": "squark:smooth_slate",
+    "count": 4
   }
 }
