@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "squark:block/smooth_slate",
+    "top": "squark:block/smooth_slate",
+    "side": "squark:block/smooth_slate"
+  }
+}
