@@ -1,6 +1,3 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "squark:block/smooth_slate"
-  }
+  "parent": "squark:block/smooth_slate_stairs"
 }

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "squark:smooth_slate"
+          "name": "squark:smooth_slate_stairs"
         }
       ],
       "conditions": [

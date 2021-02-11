@@ -1,8 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#  ",
-    "## ",
     "###"
   ],
   "key": {
@@ -11,7 +9,7 @@
     }
   },
   "result": {
-    "item": "squark:smooth_slate_stairs",
-    "count": 4
+    "item": "squark:smooth_slate_slab",
+    "count": 6
   }
 }

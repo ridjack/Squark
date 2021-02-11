@@ -1,5 +1,5 @@
 {
-  "parent": "block/stairs",
+  "parent": "block/slab",
   "textures": {
     "bottom": "squark:block/smooth_slate",
     "top": "squark:block/smooth_slate",

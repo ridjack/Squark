@@ -2,5 +2,7 @@
   "block.squark.slate": "Slate",
   "block.squark.smooth_slate": "Smooth Slate",
   "block.squark.limestone": "Limestone",
-  "block.squark.smooth_limestone": "Smooth Limestone"
+  "block.squark.smooth_limestone": "Smooth Limestone",
+  "block.squark.smooth_slate_stairs": "Smooth Slate Stairs",
+  "block.squark.smooth_slate_slab": "Smooth Slate Slab"
 }

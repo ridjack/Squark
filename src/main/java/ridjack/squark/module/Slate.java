@@ -15,6 +15,8 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 import ridjack.squark.Squark;
 import ridjack.squark.block.SlateBlock;
 import ridjack.squark.block.SmoothSlateBlock;
+import ridjack.squark.block.SmoothSlateSlabBlock;
+import ridjack.squark.block.SmoothSlateStairsBlock;
 import svenhjol.charm.base.CharmModule;
 import svenhjol.charm.base.iface.Module;
 
@@ -23,13 +25,18 @@ public class Slate extends CharmModule {
     public static Identifier ID = new Identifier(Squark.MOD_ID, "slate");
     public static SlateBlock SLATE_BLOCK;
     public static SmoothSlateBlock SMOOTH_SLATE_BLOCK;
-
+    public static SmoothSlateStairsBlock SMOOTH_SLATE_STAIRS;
+    public static SmoothSlateSlabBlock SMOOTH_SLATE_SLAB;
     public static ConfiguredFeature<?, ?> FEATURE;
 
     @Override
     public void register() {
         SLATE_BLOCK = new SlateBlock(this);
         SMOOTH_SLATE_BLOCK = new SmoothSlateBlock(this);
+        SMOOTH_SLATE_STAIRS = new SmoothSlateStairsBlock(this);
+        SMOOTH_SLATE_SLAB = new SmoothSlateSlabBlock(this);
+
+    
 
         FEATURE = Feature.ORE
             .configure(new OreFeatureConfig(
